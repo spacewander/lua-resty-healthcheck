@@ -4,6 +4,7 @@ source = {
    url = "git://github.com/api7/lua-resty-healthcheck",
    tag = "v2.2.1"
 }
+
 description = {
    summary = "Healthchecks for OpenResty to check upstream service status",
    detailed = [[
