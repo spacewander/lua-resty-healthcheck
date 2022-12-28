@@ -30,6 +30,7 @@ local DEBUG = ngx.DEBUG
 local ngx_log = ngx.log
 local tostring = tostring
 local ipairs = ipairs
+require("table.nkeys")
 local cjson = require("cjson.safe").new()
 local table_remove = table.remove
 local utils = require("resty.healthcheck.utils")
